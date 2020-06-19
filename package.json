@@ -1,0 +1,31 @@
+{
+  "name": "basic-mongo-node",
+  "version": "1.0.0",
+  "description": "A simple nodejs application that connect to mongodb cloud with predefine datasheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doyoque/basic-mongo-node.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Abiyoga Bayu Primadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doyoque/basic-mongo-node/issues"
+  },
+  "homepage": "https://github.com/doyoque/basic-mongo-node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
